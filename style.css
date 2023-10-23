@@ -1,0 +1,62 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+header {
+    background-color: #2ecc71; /* Dark green header background */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ecf0f1; /* Light green container background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+.section {
+    padding: 40px 0; /* Add padding to sections for better spacing */
+}
+
+h1, h2 {
+    color: #27ae60; /* Dark green heading color */
+}
+
+.project {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #27ae60; /* Dark green border */
+    border-radius: 5px;
+    background-color: #ffffff; /* White background for project boxes */
+}
+
+/* Style links */
+a {
+    color: #3498db; /* Light blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2980b9; /* Darker blue on hover */
+}

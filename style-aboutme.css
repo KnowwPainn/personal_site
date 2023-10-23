@@ -29,8 +29,8 @@ font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: "auto";
+    height: auto;
+    width: 100%;
   }
 
 .profile-image-container img {
@@ -76,15 +76,46 @@ h1, h2 {
     border: 1px solid #2ecc71;
     border-radius: 5px;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    text-align: center; /* Center the text content */
 }
 
-.project img.left-align{
-    float: "left";
+.project h2 {
+    margin-bottom: 10px; /* Optional: Add margin between h2 and p */
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.text {
+    flex: 1;
+    
+}
+
+.image {
+    margin-left: 20px; /* Add some spacing between text and image */
+    max-width: 200px; /* Set the maximum width for the image */
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.image img.left-align{
+    float: left;
     margin-right: 10px;
 }
 
-.project img.right-align{
-    float: "right";
+
+.image img.right-align{
+    float: right;
     margin-left: 10px;
 }
 
@@ -116,26 +147,3 @@ a:hover {
     text-decoration: underline;
     color: #ffffff; /* Darker blue on hover */
 }
-
-
-footer {
-    background-color: #2ecc71;
-    color: aliceblue;
-    height: 70px;
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 0 12px -2px black;
-  }
-  
-  footer a {
-    margin: 0 25px;
-  }
-  
-  footer .media-link {
-    height: 45px;
-  }

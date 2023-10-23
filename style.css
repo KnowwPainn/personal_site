@@ -13,6 +13,18 @@ header {
     padding: 10px 0;
 }
 
+.color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1;
+  }
+
+.color-button {
+padding: 10px 20px; /* You can adjust the padding as needed */
+font-size: 16px; /* You can adjust the font size as needed */
+}
+
 nav ul {
     list-style: none;
     text-align: center;
